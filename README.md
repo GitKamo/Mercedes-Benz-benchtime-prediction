@@ -10,9 +10,12 @@ To ensure the safety and reliability of every unique car configuration before th
 
 I was required to reduce the time that cars spend on the test bench. I worked with a dataset representing different permutations of features in a Mercedes-Benz car to predict the time it takes to pass testing. Optimal algorithms contributed to faster testing, resulting in lower carbon dioxide emissions without reducing Mercedes-Benz’s standards.
 
-Following actions should be performed:
+I then performed the following actions:
 
-If for any column(s), the variance is equal to zero, then I needed to remove those variable(s).
-I checked for null and unique values for test and train sets.
-I applied label encoder.
-I performed dimensionality reduction and predicted my test_df values using XGBoost.
+1) I loaded and explored data using pandas
+2) I Identified columns which had zero variance (using var() capability of pandas)
+3) I applied label encoder to columns containing categorical values
+4) I applied dimensionality reduction using PCA
+5) I split the training data in to train and validation sets
+6) I did some fitting and predicting using to different algorithms (xgboost and randomforeset regressor)
+7) I measured the performance using mean square error metric
