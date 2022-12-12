@@ -11,12 +11,12 @@ To ensure the safety and reliability of every unique car configuration before th
 
 I was required to reduce the time that cars spend on the test bench. I worked with a dataset representing different permutations of features in a Mercedes-Benz car to predict the time it takes to pass testing. Optimal algorithms contributed to faster testing, resulting in lower carbon dioxide emissions without reducing Mercedes-Benz’s standards.
 
-I then performed the following actions:
+I then performed the following tasks:
 
-1) I loaded and explored data using pandas
-2) I Identified columns which had zero variance (using var() capability of pandas)
-3) I applied label encoder to columns containing categorical values
-4) I applied dimensionality reduction using PCA
-5) I split the training data in to train and validation sets
+1) I've loaded and explored data using pandas
+2) I've Identified columns which had zero variance (using var() capability of pandas)
+3) I've applied label encoder to columns containing categorical values
+4) I've applied dimensionality reduction using PCA
+5) I've split the training data in to train and validation sets
 6) I did some fitting and predicting using to different algorithms (xgboost and randomforeset regressor)
-7) I measured the performance using mean square error metric
+7) I've measured the performance using mean square error metric.
